@@ -149,7 +149,8 @@ body {
 
 /* Hero */
 .hero-section {
-  background: #2e2f42;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/hero/office.jpg);
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -213,6 +214,18 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.benefits-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 264px;
 }
 
 .benefits-list {
@@ -287,7 +300,39 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
+
+.team-social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-list {
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+
+  fill: #f4f4fd;
+}
+
+.team-social-link:focus,
+.team-social-link:hover {
+  background-color: #31d0aa;
+}
+
+/* .team-social-media {
+  fill: #f4f4fd;
+} */
 
 /* PORTFOLIO */
 
