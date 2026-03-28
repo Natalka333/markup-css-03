@@ -156,8 +156,6 @@ body {
 }
 
 .hero-container {
-  /* display: flex;
-  align-items: center; */
 }
 
 .hero-title {
@@ -186,6 +184,7 @@ body {
   padding-right: 32px;
   display: block;
   margin: 0 auto;
+  border: 1px solid transparent;
 }
 
 .hero-btn:hover,
